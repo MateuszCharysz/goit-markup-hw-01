@@ -9,7 +9,7 @@
 
   <body>
     <header>
-      <h1 class="Logo">WebStudio</h1>
+      <a href="index.html"><h1 class="Logo">WebStudio</h1></a>
       <nav>
         <a href="#Agencja">Agencja</a>
         <a href="#Portfolio">Portfolio</a>
@@ -19,7 +19,9 @@
       <a href="tel:+48 111 111 111">+48 111 111 111</a>
     </header>
     <main>
-      <section style="background-color: #2f303a; width: 1600px; height: 600px">
+      <section
+        style="background-color: #2f303a; width: device-width; height: 600px"
+      >
         <h2
           style="
             font-size: 44px;
@@ -29,30 +31,79 @@
             color: #ffff;
           "
         >
-          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          EFEKTYWNE ROZWIĄZANIA
+          <p>DLA WASZEGO BIZNESU</p>
         </h2>
-        <button>Zamów usługe</button>
+        <button type="button">Zamów usługe</button>
       </section>
       <section id="Portfolio">
-        <h2>Czym się zajmujemy</h2>
-        <img />
-        <img />
-        <img />
+        <ul>
+          <li>
+            <div>
+              <h3>LOREM IPSUM</h3>
+              <p style="width: 270px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>LOREM IPSUM</h3>
+              <p style="width: 270px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>LOREM IPSUM</h3>
+              <p style="width: 270px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>LOREM IPSUM</h3>
+              <p style="width: 270px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </div>
+          </li>
+        </ul>
+        <h2 style="text-align: center">Czym się zajmujemy</h2>
+        <img
+          src="/images/box 1.jpg"
+          alt="tablet klawiatura ciemny"
+          width="370px"
+          height="294px"
+        />
+        <img
+          src="images/box 2.jpg"
+          alt="komputery na wyswietlaczu smartfony"
+          width="370px"
+          height="294px"
+        />
+        <img
+          src="/images/box 3.jpg"
+          alt="paleta kolorow"
+          width="370px"
+          height="294px"
+        />
       </section>
       <section
         id="Agencja"
-        style="background-color: #f5f4fa; width: 1600px; height: 648px"
+        style="background-color: #f5f4fa; width: device-width; height: 648px"
       >
-        <h2>Nasz zespół</h2>
-        <ul>
+        <h2 style="text-align: center">Nasz zespół</h2>
+        <ul style="display: inline">
           <li>
             <figure
-              style="
-                background-color: #ffffff;
-                width: 270px;
-                height: 368px;
-                align-items: center;
-              "
+              style="background-color: #ffffff; width: 270px; height: 368px"
             >
               <img
                 src="/images/img1.jpg"
@@ -61,20 +112,14 @@
                 height="260px"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Product Designer</p>
+                <h3 style="text-align: center">John Doe</h3>
+                <p style="text-align: center">Product Designer</p>
               </figcaption>
             </figure>
           </li>
-
           <li>
             <figure
-              style="
-                background-color: #ffffff;
-                width: 270px;
-                height: 368px;
-                align-items: center;
-              "
+              style="background-color: #ffffff; width: 270px; height: 368px"
             >
               <img
                 src="/images/img2.jpg"
@@ -83,19 +128,14 @@
                 height="260px"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Frontend Developer</p>
+                <h3 style="text-align: center">John Doe</h3>
+                <p style="text-align: center">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
           <li>
             <figure
-              style="
-                background-color: #ffffff;
-                width: 270px;
-                height: 368px;
-                align-items: center;
-              "
+              style="background-color: #ffffff; width: 270px; height: 368px"
             >
               <img
                 src="/images/img3.jpg"
@@ -104,19 +144,14 @@
                 height="260px"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Marketing</p>
+                <h3 style="text-align: center">John Doe</h3>
+                <p style="text-align: center">Marketing</p>
               </figcaption>
             </figure>
           </li>
           <li>
             <figure
-              style="
-                background-color: #ffffff;
-                width: 270px;
-                height: 368px;
-                align-items: center;
-              "
+              style="background-color: #ffffff; width: 270px; height: 368px"
             >
               <img
                 src="/images/img4.jpg"
@@ -125,8 +160,8 @@
                 height="260px"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>UI Designer</p>
+                <h3 style="text-align: center">John Doe</h3>
+                <p style="text-align: center">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -135,11 +170,14 @@
     </main>
     <footer
       id="Kontakt"
-      style="background-color: #2f303a; width: 1600px; height: 252px"
+      style="background-color: #2f303a; width: device-width; height: 252px"
     >
+      <a href="index.html">WebStudio</a>
       <address style="color: #ffff">
         m. Warszawa, Aleje Jerozolimskie 21
       </address>
+      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a href="tel:+48 111 111 111">+48 111 111 111</a>
     </footer>
   </body>
 </html>
