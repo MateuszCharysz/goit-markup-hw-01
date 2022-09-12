@@ -8,15 +8,24 @@
   </head>
 
   <body>
-    <header>
-      <a href="index.html"><h1 class="Logo">WebStudio</h1></a>
-      <nav>
+    <header style="height: 80px">
+      <a href="index.html" style="display: inline-block; font: size 26px"
+        ><h1 style="color: #2196f3">
+          Web<span style="color: #000000">Studio</span>
+        </h1></a
+      >
+      <nav style="display: inline-block">
         <a href="#Agencja">Agencja</a>
         <a href="#Portfolio">Portfolio</a>
         <a href="#Kontakt">Kontakt</a>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48 111 111 111">+48 111 111 111</a>
+      <a href="mailto:info@devstudio.com" style="display: inline-block"
+        >info@devstudio.com</a
+      >
+      <a href="tel:+48 111 111 111" style="display: inline-block"
+        >+48 111 111 111</a
+      >
+      <div style="height: 1px; color: #ececec"></div>
     </header>
     <main>
       <section
@@ -24,84 +33,137 @@
       >
         <h2
           style="
+            display: block;
             font-size: 44px;
             text-align: center;
-            line-height: 80px;
+            line-height: 60px;
             font-family: Roboto;
             color: #ffff;
+            width: 696px;
+            margin: auto;
+            padding-top: 200px;
+            padding-bottom: 30px;
           "
         >
-          EFEKTYWNE ROZWIĄZANIA
-          <p>DLA WASZEGO BIZNESU</p>
+          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
         </h2>
-        <button type="button">Zamów usługe</button>
+        <button
+          type="button"
+          style="
+            display: block;
+            font-size: 16px;
+            font-family: Roboto;
+            color: #ffff;
+            margin: auto;
+            width: 200px;
+            height: 50px;
+            background-color: #2196f3;
+            border: #2196f3;
+          "
+        >
+          Zamów usługe
+        </button>
       </section>
-      <section id="Portfolio">
-        <ul>
-          <li>
-            <div>
+      <section id="Portfolio" style="width: device-width">
+        <div style="text-align: center">
+          <ul style="margin-top: 94px">
+            <li
+              style="
+                display: inline-block;
+                text-align: left;
+                margin-inline: 30px;
+              "
+            >
               <h3>LOREM IPSUM</h3>
               <p style="width: 270px">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
-            </div>
-          </li>
-          <li>
-            <div>
+            </li>
+            <li
+              style="
+                display: inline-block;
+                text-align: left;
+                margin-inline: 30px;
+              "
+            >
               <h3>LOREM IPSUM</h3>
               <p style="width: 270px">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
-            </div>
-          </li>
-          <li>
-            <div>
+            </li>
+            <li
+              style="
+                display: inline-block;
+                text-align: left;
+                margin-inline: 30px;
+              "
+            >
               <h3>LOREM IPSUM</h3>
               <p style="width: 270px">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
-            </div>
-          </li>
-          <li>
-            <div>
+            </li>
+            <li
+              style="
+                display: inline-block;
+                text-align: left;
+                margin-inline: 30px;
+              "
+            >
               <h3>LOREM IPSUM</h3>
               <p style="width: 270px">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
-            </div>
-          </li>
-        </ul>
-        <h2 style="text-align: center">Czym się zajmujemy</h2>
-        <img
-          src="/images/box 1.jpg"
-          alt="tablet klawiatura ciemny"
-          width="370px"
-          height="294px"
-        />
-        <img
-          src="images/box 2.jpg"
-          alt="komputery na wyswietlaczu smartfony"
-          width="370px"
-          height="294px"
-        />
-        <img
-          src="/images/box 3.jpg"
-          alt="paleta kolorow"
-          width="370px"
-          height="294px"
-        />
+            </li>
+          </ul>
+        </div>
+        <div style="margin: auto">
+          <h2 style="text-align: center; margin-top: 94px; font-size: 36px">
+            Czym się zajmujemy
+          </h2>
+          <ul>
+            <li style="display: inline-block">
+              <img
+                src="/images/box 1.jpg"
+                alt="tablet klawiatura ciemny"
+                width="370px"
+                height="294px"
+              />
+            </li>
+            <li style="display: inline-block">
+              <img
+                src="images/box 2.jpg"
+                alt="komputery na wyswietlaczu smartfony"
+                width="370px"
+                height="294px"
+              />
+            </li>
+            <li style="display: inline-block">
+              <img
+                src="/images/box 3.jpg"
+                alt="paleta kolorow"
+                width="370px"
+                height="294px"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <section
         id="Agencja"
-        style="background-color: #f5f4fa; width: device-width; height: 648px"
+        style="
+          background-color: #f5f4fa;
+          width: device-width;
+          min-height: 648px;
+        "
       >
         <h2 style="text-align: center">Nasz zespół</h2>
-        <ul style="display: inline">
-          <li>
+        <ul>
+          <li style="display: inline-block">
             <figure
               style="background-color: #ffffff; width: 270px; height: 368px"
             >
@@ -117,7 +179,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li style="display: inline-block">
             <figure
               style="background-color: #ffffff; width: 270px; height: 368px"
             >
@@ -133,7 +195,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li style="display: inline-block">
             <figure
               style="background-color: #ffffff; width: 270px; height: 368px"
             >
@@ -149,7 +211,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li style="display: inline-block">
             <figure
               style="background-color: #ffffff; width: 270px; height: 368px"
             >
